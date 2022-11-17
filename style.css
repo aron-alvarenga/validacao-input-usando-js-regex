@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+  background: #eee;
+}
+
+form {
+  max-width: 200px;
+  margin: 40px auto;
+  background: white;
+  padding: 10px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 4px;
+}
+
+.success {
+  outline: none;
+  border: 2px solid limegreen;
+}
+
+.error {
+  outline: none;
+  border: 2px solid crimson;
+}
